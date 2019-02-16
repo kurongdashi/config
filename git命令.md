@@ -8,6 +8,9 @@ git add .  git add --all 添加所有文件(每次重新提交前必须先添加
 git commit -m 'xxx' 每次提交的信息
 git log 提交后查看提交日志，如果需要重新回到之前的版本 则需要取版本号的前7位
 git reset --head 1df0573
+git rm --cache 文件名  从跟踪中移除某个
+git rm --cache -r 文件夹名
+touch .gitignore 创建.gitignore 文件
 
 ```
 ## 2. 同步到github
